@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c2cab247.css",
+    "main.js": "/static/js/main.9b58fe30.js",
+    "static/media/Background.png": "/static/media/Background.0fc5a6b06894a22fb615.png",
+    "static/media/new-eden-logo.png": "/static/media/new-eden-logo.c7364134931b7b24313b.png",
+    "index.html": "/index.html",
+    "main.c2cab247.css.map": "/static/css/main.c2cab247.css.map",
+    "main.9b58fe30.js.map": "/static/js/main.9b58fe30.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2cab247.css",
+    "static/js/main.9b58fe30.js"
+  ]
+}
