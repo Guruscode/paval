@@ -11,13 +11,15 @@ import {
   Offcanvas,
   Collapse
 } from "react-bootstrap";
-
+import '../styles/main.css';
 import background  from "../Assets/Images/Background.png"
-
-
+import { BsFillPhoneFill } from 'react-icons/bs';
+import { BiWallet } from 'react-icons/bi';
+import { AiOutlineScan  } from 'react-icons/ai';
 // const Background = require("../Assets/Images/Background.png");
 const LogoImg = require("../Assets/Images/logo.png");
 const Qr = require("../Assets/Images/qr.png");
+const Bar = require("../Assets/Images/bar.png");
 
 function LandingPage () {
 const navigate = useNavigate()
@@ -96,16 +98,7 @@ const button ={
           
 }
 const box ={ 
-          width: "405px",
-          height: "931px",
-          backgroundColor: "#045441",
-          borderRadius: "30px",
-          position: "absolute",
-          right: "90px",
-          top: "40px",
-          marginLeft: "-250px",
-          backgroundImage: "url( ${process.env.PUBLIC_URL + '/img/Background.png}')",
-          backgroundRepeat: "no-repeat"
+          
 }
 const boxh5 = {
           position: "absolute",
@@ -160,7 +153,17 @@ return(
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-center flex-grow-1 pe-3">
-                      <Nav.Link href="#about">En</Nav.Link>
+                      <Nav.Link href="#about"><div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">en
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+    <li role="presentation"><a role="menuitem" href="#">HTML</a></li>
+    <li role="presentation"><a role="menuitem" href="#">CSS</a></li>
+    <li role="presentation"><a role="menuitem" href="#">JavaScript</a></li>
+    <li role="presentation" class="divider"></li>
+    <li role="presentation"><a role="menuitem" href="#">About Us</a></li>
+  </ul>
+</div></Nav.Link>
                          <Form className="d-flex">
                       <Button style={supportButton} className="loginBtn" variant="outline-secondary" onClick={() => navigate('/login')}>
                               <a style={supportButtona}>Support</a></Button>
@@ -193,6 +196,13 @@ return(
                 className="image1 img-fluid rounded-start"
                 alt="..."
               />
+              <img
+                src={Bar}
+                className="image1 img-fluid rounded-start"
+                alt="..."
+                class="bar"
+                
+              />
                   </div>
                    <p className="card-text" style={herop}>
                  Can’t Connect?
@@ -203,17 +213,17 @@ return(
             </div>
 
 
-            <div className="col-md-4 parent" >
-             <div className="" style={box}>
+            <div className=" col-md-4 parent" >
+             <div className="" class="mainbox" style={box}>
                     <h3 className="card-tittle fw-bold" style={boxh5}>Pavel Linking Guide</h3>
                    <p className="card-text" style={boxh6}>
-                   Open Pavel on your phone
+                  <BsFillPhoneFill /> Open Pavel on your phone
                   </p> <br></br>
                     <p className="card-text" style={boxh7} >
-                   Go to Wallet Page Scan QR
+                  <BiWallet /> Go to Wallet Page Scan QR
                   </p>
                     <p className="card-text" style={boxh8}>
-                   Point your phone at this screen to confirm login
+                  <AiOutlineScan /> Point your phone at this screen to confirm login
                   </p>
              </div>
            
@@ -238,8 +248,8 @@ return(
                   {/* <!--Grid row--> */}
                   <div className="row d-flex justify-content-center">
                     {/* <!--Grid column--> */}
-                    <div className="col-auto">
-                      <p className="pt-2 mt-3">
+                    <div className="col-auto" class="footer">
+                      <p className="pt-2 mt-3" >
                         <h6> ©2023 Build— All Rights Reserved</h6>
                       </p>
                     </div>

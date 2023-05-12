@@ -1,0 +1,43 @@
+body {
+          
+}
+.mainbox {
+          width: 405px;
+          height: 931px;
+          background-color: #045441;
+          border-radius: 30px;
+          position: absolute;
+          right: 90px;
+          top: 40px;
+          margin-left: -250px;
+          background-image: url('../Assets/Images/Background.png');
+          background-repeat: no-repeat;
+}
+
+.footer {
+          
+position: absolute;
+width: 376px;
+height: 27px;
+left: 77px;
+top: 923px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+color: #9F9F9F;
+}
+
+.bar {
+          position: absolute;
+width: 248px;
+height: 231px;
+left: 621px;
+top: 521px;
+}
+
+.support {
+
+}
