@@ -1,6 +1,30 @@
-body {
-          
+
+@media screen and (max-width: 768px){
+  body {
+ 
+}.mainbox{
+position:relative;
+width: 80%;
+          background-color: green;
+           display: flex;
+    flex-wrap: wrap;
+    width: 405px;
+          height: 931px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
 }
+.image{
+justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+
+}
+@media screen and (min-width: 600px) {
 .mainbox {
           width: 405px;
           height: 931px;
@@ -12,6 +36,8 @@ body {
           margin-left: -250px;
           background-image: url('../Assets/Images/Background.png');
           background-repeat: no-repeat;
+}
+          
 }
 
 .footer {

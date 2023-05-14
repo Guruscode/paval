@@ -191,16 +191,17 @@ return(
                   </p>
                  
                   <div className="d-flex " style={heroqr}>
-                     <img
+                     {/* <img
                 src={Qr}
-                className="image1 img-fluid rounded-start"
+                className="image1  rounded-start"
                 alt="..."
-              />
+              /> */}
               <img
+              class="image"
                 src={Bar}
                 className="image1 img-fluid rounded-start"
                 alt="..."
-                class="bar"
+                
                 
               />
                   </div>
