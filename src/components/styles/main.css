@@ -53,6 +53,7 @@ color: #9F9F9F;
           margin-left: -210px;
           background-image: url('../Assets/Images/Background.png');
           background-repeat: no-repeat;
+          background-size: cover;
 }
 .footer {
           
