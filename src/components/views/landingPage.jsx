@@ -52,15 +52,11 @@ const supportButtona = {
           top: "97px",
 }
 
-const support = { 
-      color: "DodgerBlue",
-  padding: "40px",
-}
 const hero1 = {
           display: 'flex',
           justifyContent:'center',
           alignItems:'center',
-          height: '70vh',
+          height: '62vh',
           position: "static"
 }
 
@@ -97,9 +93,7 @@ const button ={
          
           
 }
-const box ={ 
-          
-}
+
 const boxh5 = {
           position: "absolute",
           width: "234px",
@@ -118,7 +112,7 @@ const boxh6 = {
           }
 const boxh7 = {
           position: "absolute",
-          width: "245px",
+          width: "200px",
           height: "29px",
           left: "110px",
           top: "250px",
@@ -190,7 +184,7 @@ return(
                   Scan the QR Code below to begin
                   </p>
                  
-                  <div className="d-flex " style={heroqr}>
+                  <div className="d-flex" style={heroqr}>
                      {/* <img
                 src={Qr}
                 className="image1  rounded-start"
@@ -199,7 +193,7 @@ return(
               <img
               class="image"
                 src={Bar}
-                className="image1 img-fluid rounded-start"
+                className="image1"
                 alt="..."
                 
                 
@@ -215,7 +209,7 @@ return(
 
 
             <div className=" col-md-4 parent" >
-             <div className="" class="mainbox" style={box}>
+             <div className="" class="mainbox">
                     <h3 className="card-tittle fw-bold" style={boxh5}>Pavel Linking Guide</h3>
                    <p className="card-text" style={boxh6}>
                   <BsFillPhoneFill /> Open Pavel on your phone
