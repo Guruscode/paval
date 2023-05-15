@@ -43,14 +43,14 @@ color: #9F9F9F;
 
 @media screen and (min-width: 600px) {
 .mainbox {
+          position: absolute;
           width: 405px;
-          height: 931px;
+          height: 951px;
           background-color: #045441;
           border-radius: 30px;
-          position: absolute;
           right: 90px;
-          top: 40px;
-          margin-left: -250px;
+          top: 19px;
+          margin-left: -210px;
           background-image: url('../Assets/Images/Background.png');
           background-repeat: no-repeat;
 }
