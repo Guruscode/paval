@@ -98,7 +98,7 @@ const boxh5 = {
           position: "absolute",
           width: "234px",
           height: "10px",
-          left: "110px",
+          left: "50px",
           top: "101px",
           color: "white"
           }
@@ -106,7 +106,7 @@ const boxh6 = {
           position: "absolute",
           width: "245px",
           height: "29px",
-          left: "110px",
+          left: "50px",
           top: "200px",
           color: "white"
           }
@@ -114,7 +114,7 @@ const boxh7 = {
           position: "absolute",
           width: "200px",
           height: "29px",
-          left: "110px",
+          left: "50px",
           top: "250px",
           color: "white"
           }
@@ -122,7 +122,7 @@ const boxh8 = {
           position: "absolute",
           width: "245px",
           height: "29px",
-          left: "110px",
+          left: "50px",
           top: "300px",
           color: "white"
           }
